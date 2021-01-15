@@ -14,7 +14,7 @@ public class wall : MonoBehaviour
     void Update()
     {
         /*---------Objects Destroy--------*/
-        //The object will be destroyed after the "Player" passes through it!
+        //The object will be destroyed after the "Player" passes them!
         float z = transform.position.z + 8;
         float playerZ = GameObject.Find("Player").transform.position.z;
         if (playerZ > z) {
